@@ -1,0 +1,13 @@
+str1 = 'hello'
+str2 = 'world'
+var_int = 10
+
+print("type(str1)=",type(str1))
+
+var3 = str1 + str2
+
+print('var3=',var3)
+
+var5 = str1 * 5
+
+print(var5)
