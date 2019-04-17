@@ -8,3 +8,34 @@ for i in range(len(list1)):
     print(list1[i])
     print(type(list1[i]))
     
+ ===========================
+fruits = ['orange', 'apple', 'pear', 'banana']
+print(fruits)
+
+fruits[1] = 'water melon'
+print(fruits)
+
+fruits[-1] = 'modified banana'
+print(fruits)
+=====================
+
+'''
+https://docs.python.org/3/tutorial/datastructures.html
+Getting Sublists with Slices
+'''
+
+fruits = ['orange', 'apple', 'pear', 'banana']
+print('fruits=',fruits)
+print('fruits[0]=',fruits[0])
+
+print('fruits[0:2]=',fruits[0:2])
+print('fruits[0:2]=',fruits[0:4])
+print('fruits[0:2]=',fruits[0:5])
+print('fruits[0:-1]=',fruits[0:-1])
+print('fruits[0:]=',fruits[0:])
+print('fruits[1:]=',fruits[1:])
+print('fruits[:2]=',fruits[:2])
+print('fruits[:]=',fruits[:])
+
+print('len(fruits)=',len(fruits))
+
