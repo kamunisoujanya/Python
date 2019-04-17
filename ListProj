@@ -39,3 +39,31 @@ print('fruits[:]=',fruits[:])
 
 print('len(fruits)=',len(fruits))
 
+========================
+fruits = ['orange', 'apple', 'pear', 'banana']
+
+val = 'apple' in fruits
+
+print(val)
+
+print(fruits)
+print(fruits.index('orange'))
+
+fruits.append(40)
+
+print(fruits)
+fruits.insert(1,50)
+
+print(fruits)
+
+fruits.pop()
+print(fruits)
+
+fruits.reverse(50)
+
+fruits.sort()
+print(fruits)
+
+# fruits.sort(reverse=True)
+# print(fruits)
+
