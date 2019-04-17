@@ -1,0 +1,33 @@
+def startCoffeeMachine():
+    print('warm water')
+
+def getCoffee():
+    print('mix water')
+    return 'coffee'
+
+
+startCoffeeMachine()
+mug1 = getCoffee()
+print(mug1)
+
+================================
+
+def startCoffeeMachine():
+    print('warm water')
+
+def getCoffee():
+    print('mix water')
+    return 'coffee'
+
+def getCustomCoffee(water,milk,sugar):
+    print(water,milk,sugar)
+    print(water)
+    print(milk)
+    print(sugar)
+
+
+startCoffeeMachine()
+mug1 = getCoffee()
+print(mug1)
+
+getCustomCoffee(10,20,20)
