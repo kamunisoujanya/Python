@@ -1,0 +1,10 @@
+list1 = [10, 10.5,'hello',[10,20,30]]
+
+print(type(list1))
+print('list1[4]=',list1[2])
+print('type(list1[1])=',type(list1[1]))
+
+for i in range(len(list1)):
+    print(list1[i])
+    print(type(list1[i]))
+    
