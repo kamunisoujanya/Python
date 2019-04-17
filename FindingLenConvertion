@@ -11,3 +11,8 @@ print(type(var_int))
 print("len(var)=",len(var))
 
 print("len(str)=",len(str))
+
+
+=============
+
+print('hello','world','where',sep='#')
