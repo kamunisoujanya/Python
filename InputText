@@ -1,0 +1,4 @@
+var = input()
+var = input("Enter the Value:")
+
+print("type(var)=", type(var))
