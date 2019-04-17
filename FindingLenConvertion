@@ -1,0 +1,13 @@
+var = input("Enter the Value:")
+str = 'Hello'
+
+
+print("type(var)=", type(var))
+
+var_int = int(var)
+
+print(type(var_int))
+
+print("len(var)=",len(var))
+
+print("len(str)=",len(str))
